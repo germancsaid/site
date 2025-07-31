@@ -20,8 +20,9 @@ setInterval(createBinaryDigit, 80);
 
 // Mensajes de estado cambiantes mejorados
 const statusMessages = [
-  "Building components",
-  "Almost there..."
+  "Building components..",
+  "Almost there...",
+  "Site of German Tardio."
 ];
 
 const statusElement = document.getElementById('statusText');

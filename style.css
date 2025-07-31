@@ -1,6 +1,7 @@
 body {
   background-color: #0a0c10;
-  color: #e6edf3;
+  /* background-color: #def4fc; */
+  color: #cee1ff;
   font-family: 'Courier New', monospace;
   display: flex;
   justify-content: center;
@@ -32,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 1.8rem;
   letter-spacing: 3px;
   position: relative;
@@ -57,10 +58,10 @@ h1 {
   top: 0;
   height: 100%;
   width: 0%;
-  background: linear-gradient(90deg, #235e86, #3f74b9);
+  background: linear-gradient(90deg, #173a51, #62e0ff);
   background-size: 200% 100%;
   animation:
-    loading 3s ease-in-out infinite,
+    loading 7s ease-in-out infinite,
     gradientShift 4s ease infinite;
   box-shadow: 0 0 8px rgba(59, 201, 80, 0.4);
 }
@@ -124,8 +125,8 @@ h1 {
 }
 
 .status {
-  font-size: 0.95rem;
-  color: #8b949e;
+  font-size: 0.8rem;
+  color: #a2c1e9;
   margin-top: 1.2rem;
   font-style: italic;
   min-height: 20px;
